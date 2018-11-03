@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Title = () => {
+const Header = () => {
   return(
     <div>
       <h1>Weather Forecast</h1>
@@ -9,4 +9,4 @@ const Title = () => {
   )
 };
 
-export default Title;
+export default Header;
