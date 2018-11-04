@@ -1,9 +1,21 @@
 import React from 'react';
 
-const Weather = () => {
+const Weather = ({
+  temperature,
+  city,
+  country,
+  humidity,
+  description,
+  error
+}) => {
   return(
     <div>
-      Weather Component
+      {temperature}
+      {city}
+      {country}
+      {humidity}
+      {description}
+      {error}
     </div>
   )
 };
